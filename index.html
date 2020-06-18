@@ -4,7 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>Mon 1er site</title>
+			<link href = "https://fonts.googleapis.com/css2? family = Open + Sans + Condensed: ital, wght @ 1,300 & display = swap" rel = "stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 
@@ -16,82 +20,209 @@
 		<div class="line-light"></div>
 	</div>
 
-	 <div class="navbar ">
+
+	
+		<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/bordeaux.jpg);">
+		  <div class="container">
+		    <h1>Bienvenue sur le blog de l'EFAP Bordeaux! </h1>
+		    <p>L'école de communication qui réinvente les métiers de demain</p>
+		  </div>
+		</div>
+			
+
+
+
+
+	 <div class="my_navbar ">
     <img src="images/logo.png" class="logo">
     <div class="links">
-      <a href="" class="link">Présentation</a>
-      <a href="" class="link">Team</a>
+      <a href="" class="link">Informations</a>
       <a href="" class="link">Contact</a>
+      <a href="" class="link">Galerie</a>
     </div>
   </div>
 
 
 
 
+
+
 	<div class="cadre margin-100px">
-		<h1 class="color-blue">Mojito</h1>
-		<h2 class="color-blue">Super cocktail</h2>
-		<p> La légende raconte que l'histoire du <b>mojito</b>  remonterait au début du xvie siècle (la date de naissance officieuse du prédécesseur du mojito est 1586) lorsque le corsaire explorateur anglais Francis Drake, entre deux pillages de <i>La Havane</i>, appréciait siroter des feuilles de menthe pilées avec du tafia (rhum industriel). Cette tradition explique que des clients actuels demandent dans certains bars « give me a Drake » (« donnez moi un Drake » en anglais)2.
+		<h1 class="color-blue">Mon Parcours en Communication</h1>
+		<h2 class="color-blue">Présentation de l'EFAP</h2>
+		<p> En créant l'<b>EFAP</b>  en 1961 à Paris, le philosophe et écrivain <i>Denis Huisman</i> a fait œuvre de pionnier, anticipant l'émergence d'une discipline majeure : la communication.
 		<br>
-		Au xxe siècle, la recette originelle évolue : le tafia est remplacé par du rhum et le citron vert agrémente le mélange. Ainsi est né le mojito connu aujourd’hui, et qui tire son nom du « mojo », une mixture à base de citron initialement destinée à rehausser le goût des aliments.
+		D'abord axée sur les relations presse et les relations publiques, l'EFAP s'est progressivement ouverte à toutes les composantes de la communication, pour former des professionnels capables de promouvoir une marque, une institution, un produit dans tous les environnements (agences de communication, agences de publicité, grands groupes, PME, médias, collectivités territoriales, etc.).
 		<br>
-		En 1920, le mojito devint un véritable emblème de la culture cubaine, et est élevé au rang de « cocktail national de Cuba » (le rhum de Cuba est un des principaux produits d'exportation de l'économie de Cuba)
+		Ainsi, l'EFAP a intégré, au fil du temps, des enseignements en : marketing, publicité, événementiel, management, production audiovisuelle et communication digitale. 
+		En les adaptant à tous les secteurs d'activités : luxe, audiovisuel, industrie, technologies de l'information, culture, services...
 		<br>
-		Très apprécié par l’écrivain journaliste américain Ernest Hemingway qui venait régulièrement le déguster lorsqu'il vivait à Cuba entre 1939 et 1960, avec ses célèbres habitudes locales « mon Mojito à La Bodeguita del Medio, mon Daïquiri à la El Floridita » (Ernest Hemingway à Cuba)3. Le cocktail finit par s’exporter d’abord aux États-Unis, puis en Europe, avant d’être préparé dans la plupart des bars du monde entier4.
+		Parallèlement, l'école de communication EFAP s'est développée en s'installant sur de nouveaux campus en France (Lyon, Lille et Bordeaux) et à l'étranger (New York et Shanghai), poursuivant une stratégie internationale ambitieuse.
 		<br>
-		En France, il a été démocratisé à partir des années 1990 par une importante campagne marketing de la part de la marque de rhum <strong>Havana Club.</strong></p>
+		Aujourd'hui, avec ses 6 campus, ses 65 partenaires internationaux et ses 15 MBA Spécialisés, l'EFAP est <strong>l'École de la communication en mouvement.</strong></p>
+		
+		
 
-		<img src="images/mojito.jpg" alt="image de cocktail" width="300px" class="avatar">
+		<img src="images/logoefap.jpg" alt="école" width="300px" class="avatar">
 
 		<br>
 
 
-		<a href="https://www.marmiton.org/recettes/recette_mojito_14615.aspx" target="_blanck" class="btn-pink">En savoir plus</a>
+		<a href="https://www.efap.com" target="_blanck" class="my-btn">En savoir plus</a>
+		
+
+
+					<!-- Button trigger modal -->
+			<button type="button" class="my-btn" data-toggle="modal" data-target="#exampleModal">
+			  Contact
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Contactez-moi</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+			        <h3 class="color-green">Mon mail</h3>
+              		<p>pauline.julien@efap.com</p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+			        <button type="button" class="btn btn-primary">Envoyer un mail</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
  </div>
 
  <div class="cadre margin-100px">
-		<h4 class="color-blue">La recette en vidéo</h4>
+		<h4 class="color-blue">Découvrez l'EFAP</h4>
 
-		<iframe width="400" height="400" src="https://www.youtube.com/embed/qoBhhTcIKNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="403" height="238" src="https://www.youtube.com/embed/Aib9FNmuT4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="display-flex margin-100px">
 
 		<div class="cadre text-left margin-right-30px">
-				<h4 class="color-blue">Ingrédients</h4>
+				<h4 class="color-blue">Le Programme 2ème Année</h4>
 
 				<ul>
-					<li>Rhum</li>
-					<li>Sucre</li>
-					<li>Glace</li>
-					<li>Menthe</li>
+					<li>Communication</li>
+					<li>Marketing & Digital</li>
+					<li>Culture générale</li>
+					<li>Outils professionnels</li>
+					<li>Vie professionnelle</li>
+					<li>Stage d'intégration de 3 mois</li>
 				</ul>
 		</div>
 
 
 
 		<div class="cadre text-left">
-			<h4 class="color-blue">Préparation</h4>
+			<h4 class="color-blue">Le + de la deuxième année</h4>
 			  <ol>
-			  	<li>Piler la glace</li>
-			  	<li>Verser le rhum</li>
-			  	<li>Mettre le sucre et la menthe</li>
+			  	<li>Place à la créativité ! Les étudiants doivent produire en équipe un média original sous forme de vidéo, de podcast et de support digital... et assurer le buzz ! Un jury récompensera le groupe dont la campagne de communication aura connu la plus grand viralité.</li>
+
+			<h4 class="color-blue">La Battle, une expérience concrète</h4>
+
+				<li>Organisés en micro-agences de communication, les étudiants font entrer les entreprises au cœur de l'école et réalisent pour elles de nombreuses études de cas tout au long de leur cursus.
+				Compétitions, briefs clients, recommandations, présentation devant d'influents directeurs de communication de tous secteurs confondus, tel est le quotidien des étudiants de l'EFAP.
+
+				Exemples d'entreprises ayant fait appel au savoir-faire des étudiants de l'EFAP :
+				Louis Vuitton, Kusmi Tea, Danone, Gaumont, Orange, Mandarin Oriental, Speedo, Levi's, AirBnb, Festival de Cannes...</li>	
+
+
+
 			  </ol>
 		 </div>
 
  </div>
 
 <div class="cadre margin-100px">
-		<h3 class="color-blue">Vos préparations</h3>
-		<img src="images/production1.jpg" alt="mojito 1" class="production">
-		<img src="images/production2.jpg" alt="mojito 2" class="production">
-		<img src="images/production3.jpg" alt="mojito 3" class="production">
+		<h3 class="color-blue">Les spécialisations</h3>
+
+
+				<div class="card" style="width: 70rem;">
+		  <img src="images/efap.jpg" class="card-img-top" alt="...">
+		  <div class="card-body">
+		    <h5 class="card-title">Trouvez votre voie avec l'EFAP</h5>
+		    <p class="card-text">"L'EFAP c'est s'épanouir un peu plus chaque jour".</p>
+		  </div>
+				</div>
+
+			
+				
+
 </div>
 
 <div class="cadre margin-100px">
-	<h3 class="color-green">Une super adresse!</h3>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.8548304731803!2d-1.6833490491074672!3d48.11303606074745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede315ee09249%3A0x7e37092f35a96cf2!2sTio%20Paquito!5e0!3m2!1sfr!2sfr!4v1589806836672!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	<h3 clss="color-green">Des Question sur l'EFAP ?  </h3>
+
+<div class="typeform-widget" data-url="https://form.typeform.com/to/Rr61p9" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Rr61p9&utm_source=typeform.com-01E95HX1ZH45B0KTSKAV45C1RV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+
+
+
+<div class="cadre margin-100px">
+	<h3 class="color-green">L'EFAP Bordeaux!</h3>
+	
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.595590911553!2d-0.5737849846097007!3d44.85016857909844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527c83c300001%3A0x755af41fb0edfe48!2sEFAP%20Bordeaux%2C%20%C3%89cole%20des%20Nouveaux%20M%C3%A9tiers%20de%20la%20Communication!5e0!3m2!1sfr!2sfr!4v1592214912802!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
 </div>
+
+
+					<!-- Begin Mailchimp Signup Form -->
+			<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+				#mc_embed_signup{background:#D7B29D; clear:left; font:25px 'Montserrat', sans-serif; width:100%;}
+				/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+				   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+			</style>
+			<div id="mc_embed_signup">
+			<form action="https://efap.us10.list-manage.com/subscribe/post?u=f1794554316031a1720eb11be&amp;id=230872571f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+				<label for="mce-EMAIL">Contact</label>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f1794554316031a1720eb11be_230872571f" tabindex="-1" value=""></div>
+			    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			    </div>
+			</form>
+			</div>
+
+
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fas fa-heart"></i> at Le Wagon
+  </div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+
 
 </body>
 </html>
